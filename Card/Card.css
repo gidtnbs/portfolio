@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* This is the background color and font family for the entire body */
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    
+}
+nav{
+    background-color: black;
+}
+/* nav:hover is used to change the background color when hover over the nav bar */
+nav:hover{
+   background: linear-gradient(to right,rgb(240, 97, 97),  rgb(255, 67, 98) 100%);
+}
+nav img{
+    width: 124px;
+    height: 76px;
+    padding-left: 20px;
+    border-radius: 100%;
+}
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+li{
+    margin-top: 30px;
+    margin-left:14%;
+   
+}
+.content{
+    color: white;
+    margin-top: -19%;
+}
+.content video {
+    margin-left: 62%;
+    width: 334px;
+    margin-top: -14%;
+    border-radius: 100%;
+    height: 445px;
+    position: absolute;
+    z-index: 5;
+}
+.content h1{
+    margin-top:24%;
+    margin-left:9%;
+    padding:100px;
+    font-weight: 800;
+    width: 520px;
+    background: linear-gradient(to right,rgb(255, 255, 255), rgb(10, 10, 10)10%,rgb(240, 97, 97)100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation: Joy 6s forwards infinite ;
+  }
+  
+  @keyframes Joy {
+    60% {
+      background-position:900px;
+    }
+}
+.ss a{
+    width: 124px;
+    margin-left: 114%;
+    cursor: pointer;
+
+}
+.ab a{
+    margin-left: 120%;
+    cursor: pointer;
+}
+.ho a{
+    margin-left: 28%;
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 80px;
+}
+a:hover{
+    color:black;
+    cursor: pointer;
+}
+a{
+    font-size: 24px;
+}
+span{
+    font-size: 80px;
+    font-style: italic;
+}
+.dd{
+   background:rgb(235, 97, 120);
+   height: 2px;
+}
+.About h5{
+    color: white;
+    margin-top: 43%;
+    width: 709px;
+    margin-left: 115px;
+    /* margin: 23%; */
+    font-size: 24px;
+}
+.hr{
+    margin-top: 34px;
+}
+.fot img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3%;
+    border-radius: 40px;
+    
+}
+.fot {
+    margin-left: 84%;
+    display: flex;
+    gap:18px;
+    margin-top: 16px;
+    
+}
